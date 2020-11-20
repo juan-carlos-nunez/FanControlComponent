@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\gRpc">
+      <UniqueIdentifier>{12dc60a3-a704-4a7e-af5b-81f981eb22ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TempMonitor">
+      <UniqueIdentifier>{0adbdb84-c2cd-47c1-9e0a-ec6cacb0df4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FanControl">
+      <UniqueIdentifier>{b8804e02-c00e-42f3-81c7-93b8f255a140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gRpc">
+      <UniqueIdentifier>{752f5e2b-924d-4f2c-be42-f4aecbb63d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FanControl">
+      <UniqueIdentifier>{a6eaf3f5-a3e2-4fa8-a217-9e49462ac654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TempMonitor">
+      <UniqueIdentifier>{5b200fcc-8d2c-4579-86b6-14622c8a08ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GeneralIncludes">
+      <UniqueIdentifier>{88a65ed2-9d23-4a71-8346-90c05f8f2506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SubSystem">
+      <UniqueIdentifier>{1e3a52ca-300a-4002-be95-f70675f05b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SubSystem">
+      <UniqueIdentifier>{a473b754-4258-429e-a32e-be2b97e66157}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FanControlComponent.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\UiUpdater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\FanConstants.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\FanControl.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\FanRegisters.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\GeneralConstants.h">
+      <Filter>Header Files\GeneralIncludes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\log.h">
+      <Filter>Header Files\GeneralIncludes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\TempToDutyCycle.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\TempMonitorListener.h">
+      <Filter>Header Files\TempMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\TempMonitor.h">
+      <Filter>Header Files\TempMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\SubSystem.h">
+      <Filter>Header Files\SubSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\_gen_proto_cpp\SubSystem.grpc.pb.h">
+      <Filter>Header Files\gRpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\_gen_proto_cpp\SubSystem.pb.h">
+      <Filter>Header Files\gRpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\FanControlComponent\FanControlComponent\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FanControlComponent\FanControlComponent\FanControl.cpp">
+      <Filter>Source Files\FanControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FanControlComponent\FanControlComponent\FanRegisters.cpp">
+      <Filter>Source Files\FanControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FanControlComponent\FanControlComponent\SubSystem.cpp">
+      <Filter>Source Files\SubSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FanControlComponent\FanControlComponent\TempMonitor.cpp">
+      <Filter>Source Files\TempMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FanControlComponent\_gen_proto_cpp\SubSystem.grpc.pb.cc">
+      <Filter>Source Files\gRpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FanControlComponent\_gen_proto_cpp\SubSystem.pb.cc">
+      <Filter>Source Files\gRpc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package SubSystemSink;
+
+service SubSystemServer
+{
+    rpc GetSubSystemTemp (empty_param) returns (SubSystemTemp) {}
+}
+
+message empty_param {}
+
+message SubSystemTemp
+{
+    float Temp = 1;
+}

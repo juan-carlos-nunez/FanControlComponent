@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TempToDutyCycleUT.cpp">
+      <Filter>Source Files\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="FanControlUT.cpp">
+      <Filter>Source Files\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="FanRegisterUT.cpp">
+      <Filter>Source Files\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="TempMonitorUT.cpp">
+      <Filter>Source Files\UnitTests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="FanControlComponentUT.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c8f32a85-0ee4-41f6-939b-1a84418524ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gRpc">
+      <UniqueIdentifier>{1111b710-62ab-41a9-ac78-ee30a62ad593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{5086cbc3-11eb-4645-a377-1aa4e15ea21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FanControl">
+      <UniqueIdentifier>{c2ecc2e7-010b-4835-8fe5-9c0685b26888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TempMonitor">
+      <UniqueIdentifier>{3b04d17b-a3bd-417f-b744-46a0004e384f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9cd02328-c27b-493d-812e-5fd7a1446335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SubSystem">
+      <UniqueIdentifier>{ef70631c-c589-40b3-8ac0-5c025f85e62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnitTests">
+      <UniqueIdentifier>{55fdc038-d7b6-45bf-9459-8568f940688f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\UiUpdater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\FanConstants.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\FanControl.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\FanRegisters.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\GeneralConstants.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\log.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\SubSystem.h">
+      <Filter>Header Files\SubSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\TempMonitor.h">
+      <Filter>Header Files\TempMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\TempMonitorListener.h">
+      <Filter>Header Files\TempMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\FanControlComponent\TempToDutyCycle.h">
+      <Filter>Header Files\FanControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\_gen_proto_cpp\SubSystem.grpc.pb.h">
+      <Filter>Header Files\gRpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FanControlComponent\_gen_proto_cpp\SubSystem.pb.h">
+      <Filter>Header Files\gRpc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
