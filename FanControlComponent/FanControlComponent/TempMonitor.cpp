@@ -65,6 +65,11 @@ GeneralConstants::ReturnCodes TempMonitor::initialize()
 //
 // Description: Builds the needed connections to the SubSystem gRPC servers.
 //
+// {HAZARD}: Insecure connection to server.
+//
+// {HAZARD_MEDIATION}: Setup proper security credentials for the given environment.
+//
+// {HAZARD_TODO}: Hazard Mediation.
 //
 void TempMonitor::buildSubSystemConnections()
 {
