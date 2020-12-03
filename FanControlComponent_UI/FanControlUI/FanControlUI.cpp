@@ -133,7 +133,6 @@ void FanControlUI::updateDisplay()
    {
       updateSubSysTempsDisplay();
       updatefanDataDisplay();
-      //this->repaint();
    }
    
 }

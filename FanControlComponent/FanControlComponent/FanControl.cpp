@@ -164,6 +164,9 @@ void FanControl::updateFans( float temp ) const
       auto pwmcMultiplier{ FanConstants::FAN_PWMC_PROPORTIONALITY.find(fanId) };
       if( FanConstants::FAN_PWMC_PROPORTIONALITY.end() != pwmcMultiplier)
       {
+         // [Post Submittal Obeservation] - Since the duty cycle is being rounded,
+         // there may be no change to the PWMC. Consider updating code
+         // to only update fans when there is a change in counts.
          auto roundedDc{ static_cast<int>( std::round(dutyCycle) ) };
          auto pwmc{ roundedDc * pwmcMultiplier->second };
 

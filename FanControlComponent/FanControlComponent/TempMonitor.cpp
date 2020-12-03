@@ -148,6 +148,13 @@ void TempMonitor::querySubSystems()
 //
 void TempMonitor::updateTempTables(int ssid, float temp)
 {
+
+   // [Post Submittal Observation] Precision was not taken into account
+   // when doing the floating point comparision. For the demo, changes in
+   // temp were all 1-tenth of a degree, making the below simple check sufficient.
+   // If higher precision is needed, the below check may need to be changed.
+   // E.g. Get the absolute-value of difference and compare the difference to the desired precision.
+
    // No need to do anything if the temp hasn't changed.
    if (subSystemTemps[ssid] != temp)
    {
@@ -175,8 +182,6 @@ void TempMonitor::updateTempTables(int ssid, float temp)
 // Description: Checks to see if there is a new max temp.
 //
 // Return: bool - True if a new max temp was identified. False otherwise.
-//
-// Notes: Find & Erase is T: O(logn). Insert is T: O(logn)
 //
 bool TempMonitor::updateCurMaxTemp()
 {

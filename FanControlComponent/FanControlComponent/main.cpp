@@ -62,7 +62,6 @@ void doMenu(std::vector<std::unique_ptr<SubSystem>>& subSystems, FanControl& fan
 int main()
 {
    std::vector<int> subSystemIds{ 1, 2, 3, 4,  5,  6,  7,  8,  9, 10 };
-   //std::vector<int> subSystemIds{ 1, 3 };
    std::vector<int> fanIds{ 8, 6, 2, 4, 20, 18, 14, 16, 10, 12 };
    uint32_t         mockRegisters[10]{ 0 };
 
